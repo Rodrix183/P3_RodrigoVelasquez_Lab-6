@@ -11,8 +11,10 @@ Computadora::Computadora(){
 Computadora::~Computadora(){
 
 }
-Computadora::Computadora(string so){
+Computadora::Computadora(string so,string t,string f) : Electronico(t,f){
   sistema = so;
+  t = "Computadora";
+  f = "Fragil";
 }
 string Computadora::getSistema(){
   return sistema;

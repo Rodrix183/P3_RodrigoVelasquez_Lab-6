@@ -22,3 +22,9 @@ string Libro::getCodigo(){
 void Libro::setCodigo(string c){
   codigo = c;
 }
+string Libro::Tp(string tpe){
+  return tpe = "Libro";
+}
+string Libro::Frg(string fra){
+  return fra = "No Fragil";
+}

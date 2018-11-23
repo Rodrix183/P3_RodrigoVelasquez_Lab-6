@@ -17,6 +17,8 @@ class Ropa : public Producto{
 
     string getTipo();
     void setTipo(string);
+    string Tp(string);
+    string Frg(string);
 
 };
 

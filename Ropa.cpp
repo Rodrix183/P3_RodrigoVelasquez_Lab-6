@@ -22,3 +22,9 @@ string Ropa::getTipo(){
 void Ropa::setTipo(string t){
   tipo = t;
 }
+string Ropa::Tp(string tpe){
+  return tpe = "Ropa";
+}
+string Ropa::Frg(string fra){
+  return fra = "No Fragil";
+}

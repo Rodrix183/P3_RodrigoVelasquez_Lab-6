@@ -11,8 +11,10 @@ Videojuego::Videojuego(){
 Videojuego::~Videojuego(){
 
 }
-Videojuego::Videojuego(string developer){
+Videojuego::Videojuego(string developer,string t,string f) : Electronico(t,f){
   desarrollador = developer;
+  t = "Videojuego";
+  f = "Fragil";
 }
 string Videojuego::getDesarrollador(){
   return desarrollador;

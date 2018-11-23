@@ -17,7 +17,8 @@ class Libro : public Producto{
 
     string getCodigo();
     void setCodigo(string);
-
+    string Tp(string);
+    string Frg(string);
 };
 
 #endif

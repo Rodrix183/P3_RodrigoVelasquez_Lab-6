@@ -13,7 +13,7 @@ class Computadora : public Electronico{
     Computadora();
 
     ~Computadora();
-    Computadora(string);
+    Computadora(string,string,string);
 
     string getSistema();
     void setSistema(string);

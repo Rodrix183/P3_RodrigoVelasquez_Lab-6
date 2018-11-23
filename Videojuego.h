@@ -13,7 +13,7 @@ class Videojuego : public Electronico{
     Videojuego();
 
     ~Videojuego();
-    Videojuego(string);
+    Videojuego(string,string,string);
 
     string getDesarrollador();
     void setDesarrollador(string);
