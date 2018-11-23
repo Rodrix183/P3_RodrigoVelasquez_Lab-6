@@ -2,6 +2,8 @@
 #include "Ropa.h"
 #include "Libro.h"
 #include "Electronico.h"
+#include "Videojuego.h"
+#include "Computadora.h"
 #include <vector>
 #include <iostream>
 
