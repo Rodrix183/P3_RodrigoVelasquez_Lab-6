@@ -1,4 +1,5 @@
 #include "Libro.h"
+#include "Producto.h"
 #include <iostream>
 
 using std::cin;
